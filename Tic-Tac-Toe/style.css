@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+/* GamePage */
+.title{
+    margin-top: 1%;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2vh;
+    width: 70vmin;
+    text-align: center;
+    height: 6vmin;
+}
+
+.container{
+    height:100vh ;
+    width: 100vw;
+    background-color:#5F7367 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamecontainer{
+    height: 70vmin;
+    width: 70vmin;
+    background-color:#D9D7DD ;
+    border-radius: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+    padding: 2vmin;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    background-color: #E6FDFF;
+    color: #B07BAC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 10vmin;
+    text-align: center;
+    width:20vmin ;
+    height:20vmin ;
+    box-shadow: 5px 5px 10px black ;
+    border-radius: 4vmin;
+}
+
+.score-Card{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vmin;
+    height: 14vmin;
+    margin-bottom: 2%;
+}
+
+.score{
+    font-size: 1.4rem;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%; 
+    gap: 1%;
+
+}
+
+.score div{
+    width:100px;
+    word-wrap:break-word;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+}
+
+.margin{
+    margin-top: 7%;
+}
+
+.score-Card button{
+    width: 100%;
+    height: 8vmin;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 2vmin;
+}
+
+.butto{
+    width: 28%;
+    height: 100%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hideCompletePage{
+    display: none !important;
+}
+
+
+
+/* scorePage */
+
+
+.winner{
+    background-color:#5F7367 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+
+}
+
+.wintext{
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40%;
+    gap: 5%;
+    font-weight: 700;
+}
+
+.overallwin{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.scorepage{
+    display: flex;
+    width: 60%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    font-size: 1.8rem;
+}
+
+.buttons button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 40%;
+
+    
+    
+}
+
+.buttons {
+   width: 40%; 
+   height: 7%;
+   display: flex;
+   font-weight: 600;
+   justify-content: space-between;
+}
+
+.scorepage div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
